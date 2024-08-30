@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@HighStakesSwitzerland/ibex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/HighStakesSwitzerland/loro-ibex-app",
   "scripts": {
     "dev": "next dev",
