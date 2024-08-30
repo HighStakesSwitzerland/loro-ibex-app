@@ -1,0 +1,89 @@
+@import "./variable";
+
+
+nb-option-list {
+  max-height: 200px;
+}
+
+nb-radio.status-basic {
+  text-align: start;
+  label {
+    padding: 1.18px 0 !important;
+  }
+}
+
+.standard-form {
+
+  .form-group {
+    position: relative;
+
+    label {
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--text-basic-color);
+      margin-bottom: 20px;
+    }
+
+    .form-control {
+      height: 60px;
+      border-radius: var(--border-radius);
+      color: var(--text-basic-color);
+      border-color: transparent;
+      padding: 0 30px;
+      font-size: 18px;
+      font-weight: 500;
+
+      &::-webkit-input-placeholder {
+        color: var(--text-basic-color);
+      }
+
+      &:-ms-input-placeholder {
+        color: #d5aeae;
+      }
+
+      &::placeholder {
+        color: var(--text-basic-color);
+      }
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+        box-shadow: none;
+      }
+    }
+
+  }
+}
+
+nb-option.multiple.selected {
+  &:hover {
+    background-color: var(--option-selected-hover-background-color);
+  }
+}
+
+.option-group-title {
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--option-selected-hover-background-color);
+  }
+}
+
+button.shape-rectangle {
+  border-left-color: transparent;
+}
+
+nb-button-group button.shape-rectangle:not(:first-child):not(:last-child) {
+  border-radius: 0 !important;
+}
+
+nb-button-group button:last-child {
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+nb-button-group button:first-child {
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}

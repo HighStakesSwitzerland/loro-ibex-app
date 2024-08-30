@@ -1,0 +1,57 @@
+/*
+ Bootstrap's reboot CSS overrides
+ */
+@use "src/assets/styles/variable";
+
+h1 {
+  font-size: 26px !important;
+  color: var(--bs-heading-color);
+}
+h2 {
+  font-size: 24px !important;
+  color: var(--bs-heading-color);
+}
+h3 {
+  font-size: 22px !important;
+  color: var(--bs-heading-color);
+}
+h4 {
+  font-size: 20px !important;
+  color: var(--bs-heading-color);
+}
+h5 {
+  font-size: 18px !important;
+  color: var(--bs-heading-color);
+}
+h6 {
+  font-size: 16px !important;
+  color: var(--bs-heading-color);
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 22px !important;
+    color: var(--bs-heading-color);
+  }
+  h2 {
+    font-size: 20px !important;
+    color: var(--bs-heading-color);
+  }
+  h3 {
+    font-size: 18px !important;
+    color: var(--bs-heading-color);
+  }
+  h4 {
+    font-size: 16px !important;
+    color: var(--bs-heading-color);
+  }
+  h5 {
+    font-size: 12px !important;
+    color: var(--bs-heading-color);
+  }
+  h6 {
+    font-size: 12px !important;
+    color: var(--bs-heading-color);
+  }
+}

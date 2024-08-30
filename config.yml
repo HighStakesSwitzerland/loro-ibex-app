@@ -1,0 +1,7 @@
+services:
+  registry:
+    rpcEndpoint: 'https://laconicd.laconic.com'
+    gqlEndpoint: 'https://laconicd.laconic.com/api'
+    chainId: laconic_9000-1
+    gas: 9550000
+    fees: 15000000alnt
